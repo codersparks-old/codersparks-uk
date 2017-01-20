@@ -1,3 +1,7 @@
+##################
+# Maven Ignores
+##################
+
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -7,3 +11,10 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
+
+######################
+# Intellij Ignores
+######################
+
+.idea/
+codersparks-uk.iml
