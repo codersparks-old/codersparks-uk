@@ -1,0 +1,2 @@
+codersparks:
+  secret: ${CODERSPARKS_SECRET}
