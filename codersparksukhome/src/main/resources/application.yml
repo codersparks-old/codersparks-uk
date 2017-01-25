@@ -1,2 +1,6 @@
+spring:
+  thymeleaf:
+    mode: LEGACYHTML5
+
 codersparks:
   secret: ${CODERSPARKS_SECRET}
