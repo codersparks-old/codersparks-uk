@@ -18,3 +18,8 @@ buildNumber.properties
 
 .idea/
 *.iml
+
+######################
+# Openshift Ignores
+######################
+deployments
