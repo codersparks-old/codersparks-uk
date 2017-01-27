@@ -3,4 +3,4 @@ spring:
     mode: LEGACYHTML5
 
 codersparks:
-  secret: ${CODERSPARKS_SECRET}
+  secret: ${OPENSHIFT_WILDFLY_PASSWORD}
