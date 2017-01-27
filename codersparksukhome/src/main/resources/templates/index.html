@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
 <head>
     <meta charset="UTF-8" />
     <title>Welcome to Codersparks.uk</title>
@@ -11,6 +12,8 @@
 
 <p>I will also be prettifying this over time</p>
 
-<div
+<div sec:authorize="${hasRole('DEV')}">
+    <h2>You have dev privilidges</h2>
+</div>
 </body>
 </html>
